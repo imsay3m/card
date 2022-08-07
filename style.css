@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.cards {
+    position: relative;
+    background-color: #6AC47E;
+    height: 700px;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.card {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: transform 0.4s, z-index 0.3s ease;
+}
+
+.card:hover {
+    transform: translate(1px, 1px);
+    z-index: 4;
+}
+
+.card-1 {
+    background-color: #FF6666;
+    left: 300px;
+    top: 200px;
+    z-index: 1;
+}
+
+.card-2 {
+    background-color: #5A20CB;
+    top: 300px;
+    left: 400px;
+    z-index: 2;
+}
+
+.card-3 {
+    background-color: #03C6C7;
+    right: 400px;
+    bottom: 300px;
+    z-index: 3;
+}
